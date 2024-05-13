@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Carrois+Gothic&family=Dancing+Script:wght@400..700&family=Inconsolata:wght@200..900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Nanum+Gothic&family=Poetsen+One&family=Quicksand:wght@300..700&family=Sedgwick+Ave+Display&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Berkshire+Swash&family=Carrois+Gothic&family=Coming+Soon&family=Dancing+Script:wght@400..700&family=Inconsolata:wght@200..900&family=Kolker+Brush&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Nanum+Gothic&family=Poetsen+One&family=Quicksand:wght@300..700&family=Sedgwick+Ave+Display&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Berkshire+Swash&family=Carrois+Gothic&family=Dancing+Script:wght@400..700&family=Inconsolata:wght@200..900&family=Kolker+Brush&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Nanum+Gothic&family=Poetsen+One&family=Quicksand:wght@300..700&family=Sedgwick+Ave+Display&display=swap");
+body {
+  background: rgb(246, 245, 242);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.container {
+  max-width: 900px;
+  max-height: 900px;
+  text-align: center;
+  padding: 90px 50px;
+  flex: 1;
+}
+.container .header-img {
+  width: 200px;
+  height: 70px;
+}
+.container .h2left {
+  text-align: left;
+  font-family: Berkshire Swash;
+  font-size: 60px;
+}
+.container .h2right {
+  text-align: right;
+  font-family: Berkshire Swash;
+  font-size: 60px;
+}
+.container section {
+  display: flex;
+  justify-content: center;
+}
+.container section button {
+  display: flex;
+  align-items: center;
+  padding: 5px 20px;
+  background: radial-gradient(circle, rgb(246, 245, 242) 0%, rgb(240, 235, 227) 100%);
+  border-radius: 2rem;
+  border: none;
+  color: #0e0d0d;
+  cursor: pointer;
+  text-align: center;
+}
+.container section button .icon {
+  margin-left: 5px;
+}
+.container #quoteContainer {
+  font-size: 24px;
+  line-height: 1.5;
+  background: radial-gradient(circle, rgb(246, 245, 242) 0%, rgb(240, 235, 227) 100%);
+  border-radius: 2rem;
+  padding: 10px;
+  width: 100%;
+  max-width: 479px;
+}
+.container #quoteContainer blockquote {
+  font-family: Coming Soon;
+  margin-top: 5px;
+}
+.container #quoteContainer img {
+  width: 60px;
+  height: 80px;
+  margin-top: 30px;
+}
+.container #quoteContainer cite {
+  font-family: Berkshire Swash;
+  font-size: 18px;
+  padding: 10px;
+  margin-top: 50px;
+}
+
+.footer {
+  text-align: center;
+  font-size: 14px;
+  padding: 10px;
+  bottom: 0;
+}
+
+@media (max-width: 767px) {
+  .header-img {
+    width: 150px;
+    height: 50px;
+  }
+  .h2left,
+  .h2right {
+    font-size: 40px;
+  }
+  #quoteContainer blockquote {
+    font-size: 15px;
+  }
+  #quoteContainer cite {
+    font-size: 8px;
+  }
+}
