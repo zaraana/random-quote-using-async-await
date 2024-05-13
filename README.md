@@ -35,7 +35,7 @@ The web service sits at this URL: https://thatsthespir.it/api. It is called the 
 <br>
 
  ## <div align="left"> 𝙸 𝚖𝚞𝚜𝚝 𝚜𝚊𝚢 𝚝𝚑𝚊𝚝 .....
-<img align="center" width="45%" alt="toughts" src="assets/images/giphy.gif">
+<img align="center" width="35%" alt="toughts" src="assets/images/giphy.gif">
 
 
 
