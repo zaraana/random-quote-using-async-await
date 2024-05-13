@@ -10,10 +10,12 @@ quoteContainer.style.display = 'block';
         const data = await response.json();
         const quoteContainer = document.getElementById('quoteContainer');
         quoteContainer.innerHTML = `
-        <img src="assets/images/love.png">
             <blockquote>
+            <img src="assets/images/quotationmarks.png" alt:"quotation">
                 ${data.quote} 
-                <br>
+                <section>
+                <img class="author-pic" src="${data.photo}" alt="Author Photo">
+                </section>
                     <cite>
                         - ${data.author} -
                     </cite>
