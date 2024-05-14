@@ -2,7 +2,7 @@
 
 
 ## <div align="center">  𝐓𝐡𝐞 𝐀𝐬𝐬𝐢𝐠𝐧𝐦𝐞𝐧𝐭:
-<img align="left" width="13%" alt="quote" src="assets/images/quote1.png"></img>
+<img align="left" width="12%" alt="quote" src="assets/images/quote1.png"></img>
 <img align="right" width="16%" alt="quote" src="assets/images/Quote2.png"></img>
 Publish a web page that shows a random quote from an available Web Service, from the Quotes serving website: https://thatsthespir.it
 
@@ -22,9 +22,9 @@ The web service sits at this URL: https://thatsthespir.it/api. It is called the 
 * When it works, share the link on your startup's discord channel.
 
   
-## <div align="center">  𝙱𝚘𝚗𝚞𝚜: 
+##  𝙱𝚘𝚗𝚞𝚜: 
 
-<img align="left" width="20%" alt="quote" src="assets/images/quote3.png"></img>
+<img align="right" width="18%" alt="quote" src="assets/images/quote3.png"></img>
 
 * Use the agify API to guess the age of the authors
 * Implement loader wihle the request is pending
