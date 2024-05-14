@@ -2,8 +2,8 @@
 
 
 ## <div align="center">  𝐓𝐡𝐞 𝐀𝐬𝐬𝐢𝐠𝐧𝐦𝐞𝐧𝐭:
-<img align="left" width="12%" alt="quote" src="assets/images/quote1.png"></img>
-<img align="right" width="16%" alt="quote" src="assets/images/Quote2.png"></img>
+<img align="left" width="10%" alt="quote" src="assets/images/quote1.png"></img>
+<img align="right" width="14%" alt="quote" src="assets/images/Quote2.png"></img>
 Publish a web page that shows a random quote from an available Web Service, from the Quotes serving website: https://thatsthespir.it
 
 The web service sits at this URL: https://thatsthespir.it/api. It is called the endpoint".
